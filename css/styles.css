@@ -1,0 +1,55 @@
+.content {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: aliceblue;
+
+}
+
+
+h1 {
+    font-size: 28px;
+}
+
+.list-style {
+    width: 200px;
+    list-style-position: inside;
+}
+
+
+.info  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+
+    
+}
+.image {
+    height: auto;
+    width: 100%
+    ;
+    
+}
+
+.description.recipe {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    border: 3px solid green;
+}
+
+.description {
+    height: auto;
+    width: fit-content;
+}
+
+.method {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
